@@ -1,6 +1,6 @@
 <? 
     $to = 'edjaxarov@mail.ru';
-    $from = ($_POST['user__phone']);
+    $from = ($_POST['phone']);
 
     $headers = "From: $from". "\r\n". 
     "Reply-to: $from".  "\r\n".
